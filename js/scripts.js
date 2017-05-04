@@ -50,78 +50,7 @@ function getConvertedNumber(input, romans, breakPoint) {
 
 $(function(){
   $("#form").submit(function(event){
-    // debugger;
-    console.log("serulsieru");
-    // console.log(convert(800, ten));
-
-    // console.log(getDividedInput(3333));
     console.log(getConvertedNumber(928, romans, breakPoint));
-    // if (!number)
-    // {
-    //   alert("Please enter a number.")
-    // } else {
-    //
-    // }
     event.preventDefault();
   });
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-// function convert100(number) {
-//   // debugger;
-//   var result = "";
-//   if ((number - num)>=400) {
-//     result+="CM";
-//   } else if (number === 400) {
-//     for (var i = 0; i < (num - number)/100; i++) {
-//       result+="C"
-//     }
-//     result+=("D");
-//   }
-//   else if ((number - num)<0) {
-//     for (var i = 0; i < (number)/100; i++) {
-//       result+="C"
-//     }
-//   } else {
-//     result+=("D");
-//     for (var i = 0; i < (number - num)/100; i++) {
-//       result+="C"
-//     }
-//   }
-//   return result;
-// }
-
-// function convert10(number) {
-//   // debugger;
-//   var result = "";
-//   if ((number - num)>=40) {
-//     result+="XC";
-//   } else if (number === 40) {
-//     for (var i = 0; i < (num - number)/10; i++) {
-//       result+="X"
-//     }
-//     result+=("L");
-//   }
-//   else if ((number - num)<0) {
-//     for (var i = 0; i < (number)/10; i++) {
-//       result+="X"
-//     }
-//   } else {
-//     result+=("L");
-//     for (var i = 0; i < (number - num)/10; i++) {
-//       result+="X"
-//     }
-//   }
-//   return result;
-// }
